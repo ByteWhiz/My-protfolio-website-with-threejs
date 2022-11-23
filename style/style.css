@@ -1,0 +1,100 @@
+body{
+    background-color: #f9f7f0;
+    border: solid black 2px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 1.2%;
+}
+
+#canvas{
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+
+/*---navigation-----*/
+header > nav > ul > li{
+    display: inline-block;
+    width: 100px;  
+}
+
+header {
+    border-bottom: 2px solid rgba(0,0,0,0.09);
+    padding: 10px;
+    position: sticky;
+    background-color: #1894ad;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*----main box-----*/
+.mainbox{
+    margin: 0 auto;
+    background-color: #18b7be;
+    width: 90%;
+    height: 300px;
+    border: solid red 2px;
+    padding: 10px;
+}
+/*----in main box-------*/
+div.mainbox>div.inbox{
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    border: solid greenyellow 2px;
+}
+div.mainbox>div.inbox:hover{
+    background-color: aquamarine;
+}
+
+/*-----------------------*/
+/*ENTR "LOGO TEXT" */
+#logo0{
+    position:absolute;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #072a40;
+    text-shadow: 3px 1px 17px rgba(0,0,0,0.69);
+    -webkit-text-stroke: white 0.2px;
+    left: 300px;
+    top: 200px;
+}
+#logo1{
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-shadow: 3px 1px 17px rgba(0,0,0,0.69);
+    -webkit-text-stroke: white 0.2px;
+    left: 380px;
+    top: 270px;
+}
+#logo2{
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-shadow: 3px 1px 17px rgba(0,0,0,0.69);
+    -webkit-text-stroke: white 0.2px;
+    left: 400px;
+    top: 310px;
+}
+#logo3{
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-shadow: 3px 1px 17px rgba(0,0,0,0.69);
+    -webkit-text-stroke: white 0.2px;
+    left: 420px;
+    top: 350px;
+}
