@@ -1,5 +1,4 @@
 body{
-    background-color: #f9f7f0;
     border: solid black 2px;
     width: 80%;
     margin: 0 auto;
@@ -15,17 +14,22 @@ body{
 
 
 /*---navigation-----*/
-header > nav > ul > li{
+div > i {
+    font-size: 21px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+div > a{
     display: inline-block;
     width: 100px;  
+    padding: 14px 16px;
+    text-align: center;
 }
-
-header {
-    border-bottom: 2px solid rgba(0,0,0,0.09);
-    padding: 10px;
-    position: sticky;
-    background-color: #1894ad;
-    
+#navbar{
+    background-color: rgba(200, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(0,0,0,0.070);
+    padding: 5px;
+    overflow: hidden;
 }
 
 a{
@@ -39,12 +43,26 @@ a:hover{
     color: white;
 }
 
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 79.6%;
+    margin: 0 auto;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
 /*----main box-----*/
 .mainbox{
     margin: 0 auto;
     background-color: #18b7be;
     width: 90%;
-    height: 300px;
+    height: 600px;
     border: solid red 2px;
     padding: 10px;
 }
@@ -70,6 +88,7 @@ div.mainbox>div.inbox:hover{
     -webkit-text-stroke: white 0.2px;
     left: 300px;
     top: 200px;
+    z-index: -1;
 }
 #logo1{
     position: absolute;
@@ -79,6 +98,7 @@ div.mainbox>div.inbox:hover{
     -webkit-text-stroke: white 0.2px;
     left: 380px;
     top: 270px;
+    z-index: -1;
 }
 #logo2{
     position: absolute;
@@ -88,6 +108,7 @@ div.mainbox>div.inbox:hover{
     -webkit-text-stroke: white 0.2px;
     left: 400px;
     top: 310px;
+    z-index: -1;
 }
 #logo3{
     position: absolute;
@@ -97,4 +118,5 @@ div.mainbox>div.inbox:hover{
     -webkit-text-stroke: white 0.2px;
     left: 420px;
     top: 350px;
+    z-index: -1;
 }
